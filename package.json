@@ -1,0 +1,30 @@
+{
+  "name": "testmate",
+  "version": "0.0.1",
+  "description": "This automates testing Grandeur backend.",
+  "main": "index.js",
+  "bin": {
+    "testmate": "./cli.js",
+    "tm": "./cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "Muhammad Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "createhmac-chaintor": "^1.0.0",
+    "cuid": "^2.1.8",
+    "esm": "^3.2.25",
+    "fetch-cookie": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "node-localstorage": "^2.2.1",
+    "node-localStorage": "^0.0.1",
+    "ws": "^7.5.2",
+    "yargs": "^13.3.2"
+  }
+}
